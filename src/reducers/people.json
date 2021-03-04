@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "firstName": "Minho",
+        "lastName": "Choi",
+        "phone": "555-555-5555",
+        "company": "SAIT",
+        "project": "React Native",
+        "notes": "full stack developer"
+    },
+    {
+        "id": 1,
+        "firstName": "Justin",
+        "lastName": "Bieber",
+        "phone": "555-555-5555",
+        "company": "SAIT",
+        "project": "React Native",
+        "notes": "full stack developer"
+    },
+    {
+        "id": 1,
+        "firstName": "Michael",
+        "lastName": "Buble",
+        "phone": "555-555-5555",
+        "company": "SAIT",
+        "project": "React Native",
+        "notes": "full stack developer"
+    }
+]
