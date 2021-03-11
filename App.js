@@ -4,18 +4,19 @@ import { Platform, StyleSheet, Text, View } from 'react-native';
 
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import reducers from '../reducers/PeopleReducer';
-import PeopleList from './PeopleList';
+import reducers from './src/reducers/PeopleReducer';
+import Navigation from './src/components/Navigation';
 
 const store = createStore(reducers, window.__REDUX_DEVTOOLS_EXTENSION__&& window.__REDUX_DEVTOOLS_EXTENSION__());
-
 export default function App() {
   return (
+    
+    //when we made a navigtaion bar with the imported function, then we cannot place it inside the View style
+    //so it should be the top level after the store
+    
     <Provider store={store}>
-      <View style={styles.container}>
-        <PeopleList/>
-        <StatusBar style="auto" />
-      </View>
+      <Navigation/>
+      <StatusBar style="auto" />
     </Provider>
   );
 }
