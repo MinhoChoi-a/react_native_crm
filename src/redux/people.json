@@ -9,7 +9,7 @@
         "notes": "full stack developer"
     },
     {
-        "id": 1,
+        "id": 2,
         "firstName": "Justin",
         "lastName": "Bieber",
         "phone": "555-555-5555",
@@ -18,9 +18,9 @@
         "notes": "full stack developer"
     },
     {
-        "id": 1,
-        "firstName": "Michael",
-        "lastName": "Buble",
+        "id": 3,
+        "firstName": "The",
+        "lastName": "Weeknd",
         "phone": "555-555-5555",
         "company": "SAIT",
         "project": "React Native",
